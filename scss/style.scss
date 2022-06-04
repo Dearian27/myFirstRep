@@ -1,0 +1,25 @@
+@import "./nullstyle.scss";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Montserrat&family=Source+Sans+Pro&family=Staatliches&display=swap');
+    $montserrat: "Montserrat";
+
+.main-block{
+    height: 200px;
+    width: 200px;
+    border: 5px black outset;
+    display: flex;
+    .block{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+        width: 100px;
+        
+    }
+    .b1{
+        background-color: rgb(99, 251, 117); 
+     }
+    .b2{
+       background-color: rgb(94, 185, 255); 
+    }
+    
+}
